@@ -9,8 +9,7 @@ DIVING IN
 
   If you have NOT cloned before, run the following:
   
-    git clone git@github.com:codesmith27/yeti-crab.git
-      *assumes you are running SSH, HIGHLY recommend looking into setting this up
+    git clone git@github.com:codesmith27/yeti-crab.git   
       else:
     git clone https://github.com/codesmith27/yeti-crab.git
     git branch -a
