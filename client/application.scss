@@ -50,13 +50,34 @@ button:hover {
   margin: auto;
 }
 
+.wrapper_on_table {
+  width: 450px;
+  margin: auto;
+  border: 3px solid #00d8ff;
+  border-radius: 15px;
+  color: white;
+  font-size: 20px;
+  padding: 10px;
+}
+
+#together {
+  display: flex;
+  flex-wrap: wrap;
+  justify-self: center;
+  align-self: center;
+  overflow: hidden;
+}
+
 .wrapper__ON_ChoiceBox h2 {
     display: flex;
     justify-content: center;
     font-size: 30px;
 }
+// HISTORY text is here ^
 
 .wrapperChoicebox {
+  display: flex;
+  justify-content: center;
   margin-top: 30px;
   width: 450px;
   display: flex;
@@ -103,10 +124,11 @@ select:focus, input:focus {
   text-align: justify;
 }
 
-.currency1, .currency2 {
+.currency1, .currency2, .defaultcurr {
     align-items: flex-start;
     margin: 0 20px;
     font-family: Noto Sans, 'sans-serif';
+    font-size: large;
 }
 
 
@@ -198,3 +220,15 @@ select:focus, input:focus {
     padding: 10px;
     width: 150px;
 }
+
+.button2 button {
+  margin: 0 20px 20px 10px;
+  border: 3px solid #00d8ff;
+  border-radius: 15px;
+  background-color: #00d8ff;
+  color: white;
+  font-size: 20px;
+  padding: 5px;
+  width: 150px;
+}
+

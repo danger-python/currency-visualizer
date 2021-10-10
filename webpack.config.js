@@ -5,7 +5,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 const CssMinimizerPlugin = require('css-minimizer-webpack-plugin');
 
 module.exports = {
-  entry: './client/index.js',
+  entry: ['regenerator-runtime/runtime.js', './client/index.js'],
   output: {
     path: path.resolve(__dirname, 'dist'), //watch it. default is "dist"
     filename: 'bundle.js',
